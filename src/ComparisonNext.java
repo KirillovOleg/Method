@@ -1,14 +1,17 @@
 import java.util.Scanner;
 
 public class ComparisonNext {
-    Scanner sc = new Scanner(System.in);
-    private int a;
 
     public int getInput() {
+        Scanner sc = new Scanner(System.in);
         if (sc.hasNextInt()) {
-            a = sc.nextInt();
+            return sc.nextInt();
+        } else {
+            System.out.println("Не корректный ввод. повторите ввод.");
+            return getInput();
         }
-        return a;
+
     }
+
 }
 

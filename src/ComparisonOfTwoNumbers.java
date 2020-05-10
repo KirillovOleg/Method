@@ -7,11 +7,11 @@ public class ComparisonOfTwoNumbers {
         System.out.println("Введите второе целое число: ");
         int imB = roll.getInput();
 	if(imA>imB){
-        System.out.println(imA + ">"+ imB);
+        System.out.println(imA + " > "+ imB);
     }else if(imA<imB){
-        System.out.println(imA + "<"+imB);
+        System.out.println(imA + " < "+imB);
     }else{
-        System.out.println(imA + "="+imB);
+        System.out.println(imA + " = "+imB);
     }
 
     }
