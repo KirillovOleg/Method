@@ -13,5 +13,15 @@ public class ComparisonNext {
 
     }
 
+    public void ifComp(int imA, int imB) {
+
+        if (imA > imB) {
+            System.out.println(imA + " > " + imB);
+        } else if (imA < imB) {
+            System.out.println(imA + " < " + imB);
+        } else {
+            System.out.println(imA + " = " + imB);
+        }
+    }
 }
 
